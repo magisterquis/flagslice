@@ -15,7 +15,7 @@ flag.Parse()
 /* Do something with *files and *names */
 ```
 
-The above would be called something like 
+A program using the above would be invoked somethnig like
 ```sh
 ./foo -f shadow -f master.passwd -n bunnies -n moose
 ```
