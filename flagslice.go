@@ -50,8 +50,8 @@ type stringSlice struct {
 }
 
 func (s *stringSlice) String() string {
-	if nil == s.s {
-		return fmt.Sprintf("%v", s.s)
+	if nil == s.s || 0 == len(*s.s) {
+		return ""
 	}
 	return fmt.Sprintf("%v", *s.s)
 }
