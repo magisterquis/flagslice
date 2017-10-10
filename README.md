@@ -9,7 +9,7 @@ Usage
 Use much like `flag.String`:
 ```go
 files := flagslice.String("f", nil, "A `repeatable filename`")
-pets := flagslice.String("n", []string{"cats", "dogs"}, "Fuzzy `pets`)
+pets := flagslice.String("n", []string{"cats", "dogs"}, "Fuzzy `pets`")
 flag.Parse()
 /* Do something with *files and *names */
 ```
