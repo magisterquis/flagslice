@@ -20,6 +20,11 @@ As above, but passing in a pointer and a default
 	for i,s := range *ss {
 		fmt.Printf("%v: %v", i, s)
 	}
+
+Both of the above examples could be called with
+	./foo -s bar -s tridge -s baaz
+Which would have the same effect as
+	ss := &[]string{"bar", "tridge", "baaz"}
 */
 package flagslice
 
