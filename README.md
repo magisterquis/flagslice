@@ -1,8 +1,9 @@
 flagslice
 =========
-
 Flagslice provides what should have been `flag.StringSlice`.  It is likely that
 in the future other types will be suppotred as well.
+
+[![GoDoc](https://godoc.org/github.com/magisterquis/flagslice?status.svg)](https://godoc.org/github.com/magisterquis/flagslice)
 
 Usage
 -----
